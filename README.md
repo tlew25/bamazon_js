@@ -12,7 +12,7 @@ Make it so bamazon.js can take in one of the following commands:
 
 Example: 'node customer.js'
 
-<img src="images/Screen Shot 2018-11-14 at 11.30.31 AM.png" height="150" width="150">
+<img src="images/Screen Shot 2018-11-14 at 11.30.31 AM.png" height="150" width="250">
 
 * The product table in the MySQL Database is retrieved by a function in Node.JS and displayed to the customer/client.
 

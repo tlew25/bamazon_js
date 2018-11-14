@@ -80,7 +80,7 @@ function purchaseStart() {
 
       var requestedQuantity = answer.stockQuantity;
       var idRequested = answer.ID;
-
+      // use the mysql command to select product from table created in bamazon_db
       query = "SELECT * FROM products WHERE ?";
       connection.query(query, {id: idRequested}, function(err, res){
 

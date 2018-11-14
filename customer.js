@@ -1,5 +1,5 @@
 //#############################################################
-
+// setup localhost port and mysql database connection/ test threadid
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
@@ -31,7 +31,7 @@ var query = connection.query(
       if (err) throw err;
 
 
-      // runs for loop through contents of response and table created with mysql
+      // runs for loop through contents of response and table created with mysql and displays with displayProduct function
       for (i = 0; i < res.length; i++) {
         console.log(" \nId: " + res[i].id 
         + " \nProduct name: " + res[i].product_name
@@ -41,6 +41,7 @@ var query = connection.query(
       }
     });
   purchaseStart();
+  // begins purchaseStart function that brings inquirer questionnaire for customers
 }
 function validateInput(value) {
 	var integer = Number.isInteger(parseFloat(value));
@@ -52,8 +53,7 @@ function validateInput(value) {
 		return 'Please enter a whole number above zero';
 	}
 }
-
-
+//validates user input for total 
 //################################################################
 
 // function which prompts the user for product id
@@ -130,7 +130,7 @@ function purchaseStart() {
               })
               
             })
-        }else{
+        }else{ // returns back to the original table and prompts user to try again next time
           displayProduct();
           // change to error message
           console.log("Sorry but we cannot process that quantity amount");
@@ -141,4 +141,4 @@ function purchaseStart() {
      
     });
 })
-} // end of purchaseStart function
+} 

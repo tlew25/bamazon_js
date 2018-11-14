@@ -4,7 +4,7 @@
 
 * [`bamazon.js`]
 
-* The bamazon.js app is an application that allows the user to search through an array of products in the bamazon market by id number and purchase items.
+* The bamazon.js app is an application that allows the user to search through an array of products in the bamazon market by id number and allows the user to purchase items.
 
 ### Instructions
 
@@ -24,11 +24,11 @@ Example: 'node customer.js'
 
 ### Screenshots
 
-<img src="images/Screen Shot 2018-11-14 at 11.31.13 AM.png" height="150" width="150">
+<img src="images/Screen Shot 2018-11-14 at 11.31.13 AM.png" height="100" width="70">
 
 * Asks user for id # and quantity (units)
 
-<img src="images/Screen Shot 2018-11-14 at 11.32.09 AM.png" height="150" width="150">
+<img src="images/Screen Shot 2018-11-14 at 11.32.09 AM.png" height="100" width="70">
 
 * Processes total and asks customer if they would like to continue purchasing items.
 

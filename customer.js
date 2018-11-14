@@ -33,11 +33,11 @@ var query = connection.query(
 
       // runs for loop through contents of response and table created with mysql
       for (i = 0; i < res.length; i++) {
-        console.log("id " + res[i].id 
-        + " product name " + res[i].product_name
-         + " department " + res[i].department_name
-          + " price " + res[i].price
-           + " quantity " + res[i].stock_quantity);
+        console.log("\nId: " + res[i].id 
+        + " \nProduct name: " + res[i].product_name
+         + " \nDepartment: " + res[i].department_name
+          + " \nPrice: " + res[i].price
+           + " \nQuantity: " + res[i].stock_quantity);
       }
     });
   purchaseStart();

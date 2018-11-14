@@ -24,11 +24,11 @@ Example: 'node customer.js'
 
 ### Screenshots
 
-<img src="images/Screen Shot 2018-11-14 at 11.31.13 AM.png" height="150" width="250">
+<img src="images/Screen Shot 2018-11-14 at 11.31.13 AM.png" height="150" width="450">
 
 * Asks user for id # and quantity (units)
 
-<img src="images/Screen Shot 2018-11-14 at 11.32.09 AM.png" height="100" width="170">
+<img src="images/Screen Shot 2018-11-14 at 11.32.09 AM.png" height="100" width="350">
 
 * Processes total and asks customer if they would like to continue purchasing items.
 

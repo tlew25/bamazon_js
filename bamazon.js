@@ -1,3 +1,5 @@
+//#############################################################
+
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
@@ -21,7 +23,7 @@ connection.connect(function (err) {
   displayProduct();
 });
 
-
+//#############################################################
 function displayProduct() {
 var query = connection.query(
     "SELECT * FROM products",

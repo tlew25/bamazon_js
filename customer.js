@@ -33,7 +33,7 @@ var query = connection.query(
 
       // runs for loop through contents of response and table created with mysql
       for (i = 0; i < res.length; i++) {
-        console.log("\nId: " + res[i].id 
+        console.log(" \nId: " + res[i].id 
         + " \nProduct name: " + res[i].product_name
          + " \nDepartment: " + res[i].department_name
           + " \nPrice: " + res[i].price
